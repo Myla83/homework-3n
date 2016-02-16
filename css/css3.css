@@ -1,0 +1,131 @@
+/*HEADER*/
+  .fitness {
+    margin: 40px;
+  }
+
+  .hr {
+    width: 966px;
+    height: 30px;
+    background-color: #555555;
+    color: #ffffff;
+    font-family: "TimesNewRoman";
+    border: 1px solid #ffffff;
+    font-size: 14.67px;
+    padding: 4px;
+    margin: 40px;
+
+     }
+     .hr li {
+      display: inline;
+      margin: 50px;
+      cursor: pointer;
+      -webkit-transition: background 5s ease;
+           }
+     .hr li:hover {
+       width: 60px;
+       height: 40px;
+       border: 1px inset #e1e1e1;
+       background: #313131;
+       padding: 9 30 10 30;
+
+
+
+     }
+/*BODY*/
+
+body {
+  background: linear-gradient (#f9f9f9);
+  border: 1px solid #C0C0C0;
+	padding: 30px;
+	width: 1050px;
+	height: 950px;
+	margin-left: 150px;
+	margin-right: 150px;
+	line-height: 30px;
+	background: #ffffff;
+  box-shadow: #dbdbdb 2px 4px rgba(0, 0, 0, .2);
+}
+
+.menu {
+      float: left;
+      color: #656363;
+      font-family: "TimesNewRoman";
+      margin-left: 40px;
+      font-size: 13.33px;
+}
+.menu li {
+      border: 1px solid #c8c8c8;
+      padding-left: 25px;
+      padding: 15px;
+      width: 200px;
+      height: 20px;
+      cursor: pointer;
+}
+.menu li:hover {
+
+  background: #f9f9f9;
+
+
+}
+.bike {
+  float: right;
+  border: 1px solid #c8c8c8;
+
+  margin-right: 40px;
+  width: 680px;
+  height: 400px;
+}
+.bike img {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.text {
+  color: #2c2c2c;
+  font-family: "TimesNewRoman";
+  font-size: 14.8px;
+  text-align: left;
+  width: 626px;
+  height: 140px;
+  margin-left: 334px;
+  padding: 25px;
+}
+/*FOOTER*/
+
+.rights {
+  display: inline;
+  float: right;
+  high: 40px;
+  background-color: #e1e1e1;
+  color: #2c2c2c;
+  font-family: "TimesNewRoman";
+  font-size: 13.33px;
+  padding: 4px;
+}
+
+.hr1 {
+    margin: 450px;
+    weight: 1050px;
+    high: 40px;
+    background-color: #e1e1e1;
+    color: #2c2c2c;
+    font-family: "TimesNewRoman";
+    font-size: 13.33px;
+    padding: 4px;
+    margin-left: 40px;
+    margin-right: 0px;
+
+
+   }
+
+   .hr1 li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    margin: 40px;
+    cursor: pointer;
+         }
+
+    .hr1 li:hover {
+      text-decoration: underline;
+    }
