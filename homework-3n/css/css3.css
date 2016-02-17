@@ -11,25 +11,27 @@
     font-family: "TimesNewRoman";
     border: 1px solid #ffffff;
     font-size: 14.67px;
-    padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
     margin: 40px;
 
      }
      .hr li {
-      display: inline;
+      display: inline-block;
       padding-left: 25px;
       padding-right: 25px;
       padding-top: 11px;
-      padding-bottom: 11px;
+      padding-bottom: 20px;
       cursor: pointer;
-      -webkit-transition: background 5s ease;
+      -webkit-transition: background 1s ease;
            }
      .hr li:hover {
        width: 60px;
        height: 40px;
        border: 1px inset #e1e1e1;
        background: #313131;
-       padding: 9 30 10 30;
+       padding: 9.5px 30px 0px 30px;
 
 
 
@@ -68,7 +70,7 @@ body {
       cursor: pointer;
 }
 .menu li:hover {
-
+  text-align: center;
   background: #f9f9f9;
 
 
